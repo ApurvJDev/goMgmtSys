@@ -7,3 +7,10 @@
 
  ![routes](https://github.com/user-attachments/assets/729100e7-7ebd-4913-955d-c594f6e3673e)
 
+ First we start with the routes
+ then we write the app.go file that let us connect to the mysql database
+ then we will write the utils files
+ then we write the main.go file which will just tell where the routes file is
+ then we will wrtie the model file
+ and at the end will be the controller file
+
