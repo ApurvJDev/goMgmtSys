@@ -17,5 +17,6 @@ func main() {
 	routes.RegisterBookStoreRoutes(router)
 
 	http.Handle("/", router)
-	log.Fatal(http.ListenAndServe()) // helps us create the server
+	log.Fatal(http.ListenAndServe("localhost:9010", router)) // helps us create the server
+
 }
